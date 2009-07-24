@@ -1,6 +1,27 @@
-= prince-ruby
+= PrinceXML Library for Ruby
 
-Description goes here.
+Simple ruby library to utilise the princexml program.
+Based on the work done by Subimage Interactive - http://www.subimage.com
+
+== Usage
+
+    file = "/tmp/file.pdf"
+    prince = Prince.new
+    prince.html2pdf_to_file("<p>hello world</p>", file)    
+
+== PrinceXML
+
+Prince is a computer program that converts XML and HTML into PDF documents.
+Prince can read many XML formats, including XHTML and SVG.
+Prince formats documents according to style sheets written in CSS. 
+
+http://www.princexml.com/
+
+== Notes
+
+There is vast room for improvement.
+I've only done two methods I'll add to them as I need extra functionality
+I wanted a gem I could simply include in my sinatra / merb projects
 
 == Copyright
 
