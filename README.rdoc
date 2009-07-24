@@ -15,7 +15,7 @@ Prince is a computer program that converts XML and HTML into PDF documents.
 Prince can read many XML formats, including XHTML and SVG.
 Prince formats documents according to style sheets written in CSS. 
 
-http://www.princexml.com/
+http://www.princexml.com
 
 == Notes
 
