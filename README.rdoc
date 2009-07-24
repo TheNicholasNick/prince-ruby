@@ -1,0 +1,7 @@
+= prince-ruby
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Nicholas Orr. See LICENSE for details.
