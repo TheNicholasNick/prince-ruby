@@ -19,7 +19,8 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "lib/prince-ruby.rb"
+     "lib/prince-ruby.rb",
+     "prince-ruby.gemspec"
   ]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/norr/prince-ruby}
