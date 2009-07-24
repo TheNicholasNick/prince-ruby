@@ -33,7 +33,7 @@ class Prince
   
   # Makes a pdf from a passed in string (html).
   #
-  def html2pdf_to_string(string)
+  def html_to_string(string)
     path = self.exe_path()
     # set up to take IO as input and output
     path << " --input=html - -o -"
@@ -49,7 +49,7 @@ class Prince
   # Makes a pdf from a passed in string (html) and saves to file specified
   # returns true / false if it everything completed ok
   # 
-  def html2pdf_to_file(string, file)
+  def html_to_file(string, file)
     path = self.exe_path()
     # set up to take IO as input and output
     path << " --input=html - -o #{file}"
