@@ -23,6 +23,8 @@ There is vast room for improvement.
 I've only done two methods I'll add to them as I need extra functionality
 I wanted a gem I could simply include in my sinatra / merb projects
 
+Based on work by seth @ http://sublog.subimage.com/2008/02/05/prince-rb-update
+
 == Copyright
 
 Copyright (c) 2009 Nicholas Orr. See LICENSE for details.
